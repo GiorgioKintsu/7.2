@@ -229,12 +229,12 @@ footer{
     top: 20px;
     left: 50px;
     z-index: 70;
-    animation: mymove 5s infinite normal linear;
+    animation: mymove 8s infinite normal linear;
 }
 @keyframes mymove{
-    25%{top: 20px; left: 1000px; transform: rotate(180deg);}
-    50%{top: 1000px; left: 1000px;}
-    75%{background-color: rgb(243, 2, 2); color: black; }
+    60%{top: 20px; left: 1000px; transform: rotate(180deg);}
+    75%{top: 1000px; left: 1000px;}
+    100%{background-color: rgb(243, 2, 2); color: black; }
 }
 .fortransition{
     position: relative;
