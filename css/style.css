@@ -1,0 +1,246 @@
+.header{
+    width: 100%;
+    padding: 11px 0 9px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: lightgray;
+    z-index: 50;
+}
+.logo{
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #FA6980;
+    opacity: 36px;
+    display: inline-block;
+    margin-top: 7px;
+    vertical-align: middle;
+    font-family: 'Helvetica';
+    font-weight: bold;
+}
+.headernav{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 9px;
+    margin-left: 92px;
+}
+.headerlists{
+    font-size: 11px;
+    color: #343638;
+    opacity: 50%;
+    text-transform: uppercase;
+    font-family: 'Helvetica';
+    display: inline-block;
+    margin-right: 25px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+.active{
+    opacity: 100%;
+}
+.profileicon{
+    width: 30px;
+    margin-left: 15px;
+    margin-top: 9px;
+    vertical-align: middle;
+    display: inline-block;
+}
+/* first section */
+body{
+    padding-top: 50px;
+}
+.maincontainer{
+    width: 1160px;
+    margin: 0 auto;
+}
+.trending{
+    font-size: 24px;
+    color: #202124;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.firstbox{
+    width: 360px;
+    display: inline-block;
+    margin-top: 40px;
+}
+.firstboximage{
+    width: 360px;
+    border-radius: 6px 6px 6px 6px;
+    position: relative;    
+}
+.onimage{
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: 'Helvetica';
+    position: absolute;
+    top: 28px;
+    left: 40px;
+}
+.firstboxparagraph{
+    font-size: 13px;
+    color: #A6ADB4;
+    font-weight: regular;
+    font-family: 'Acumin Pro';
+    width: 280px;
+    margin-top: 66px;
+    margin-left: 40px;
+}
+.timeicon{
+    width: 16px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 40px;
+    vertical-align: middle;
+}
+.time{
+    font-size: 13px;
+    color: #A6ADB4;
+    font-weight: oblique;
+    font-family: 'Helvetica';
+    display: inline-block;
+    margin-top: 11px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.middle{
+    margin-left: 38px;
+    margin-right: 38px;
+}
+/* second section */
+.secondtitle{
+    font-size: 24px;
+    color: #202124;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 58px;
+}
+.leftside{
+    width: 760px;
+    margin-top: 40px;
+    display: inline-block;
+    vertical-align: top;
+}
+.bridgeimage{
+    width: 760px;
+    position: relative;
+    margin-bottom: 40px;
+}
+.textonimage{
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: 'Helvetica';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.rightside{
+    width: 360px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 35px;
+    vertical-align: top;
+}
+.middleimage{
+    margin-top: 102px;
+    margin-bottom: 102px;
+}
+/* footer */
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #A6ADB4;
+    margin-top: 37px
+}
+.ftlogo{
+    font-size: 13px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: 'Acumin Pro';
+    display: inline-block;
+    margin-top: 58px;
+    vertical-align: top;
+}
+.ftnavigatsia{
+    display: inline-block;
+    margin-top: 58px;
+    margin-left: 90px;
+    vertical-align: top;
+}
+.ftnavli{
+    font-size: 13px;
+    color: #CBD0D3;
+    font-weight: bold;
+    font-family: 'Helvetica';
+    line-height: 20px;
+
+}
+.ftnavigatsiamiddle{
+    display: inline-block;
+    margin-top: 58px;
+    margin-left: 72px;
+    vertical-align: top;
+}
+.ftnavigatsialast{
+    display: inline-block;
+    margin-top: 58px;
+    margin-left: 86px;
+    vertical-align: top;
+}
+.ftparagraph{
+    font-size: 11px;
+    color: #CBD0D3;
+    font-weight: normal;
+    font-family: 'Helvetica';
+    width: 243px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 58px;
+    margin-left: 100px;
+}
+.socialicons{
+    width: 160px;
+    display: inline-block;
+    margin-top: 58px;
+    margin-left: 145px;
+    vertical-align: top;
+}
+.tw{
+    margin-left: 28px;
+    margin-right: 28px;
+}
+.fb{
+    margin-right: 28px;
+}
+/* animation */
+.animaciistvis{
+    width: 270px;
+    font-size: 25px;
+    color: rgb(243, 2, 2);
+    background-color: black;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    z-index: 70;
+    animation: mymove 5s infinite normal linear;
+}
+@keyframes mymove{
+    25%{top: 20px; left: 1000px; transform: rotate(180deg);}
+    50%{top: 1000px; left: 1000px;}
+    75%{background-color: rgb(243, 2, 2); color: black; }
+}
+.fortransition{
+    position: relative;
+    transition: all 2s linear 0.2s;        
+}
+.fortransition:hover {
+    opacity: 15%;       
+}
+
